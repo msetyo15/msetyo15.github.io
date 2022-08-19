@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-light text-dark scroll-smooth;
+    @apply dark:bg-dark dark:text-light;
+    font-family: 'Poppins', Ubuntu, Cantarell, Fira Sans, Droid Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Helvetica Neue, sans-serif;
+  }
+}
+
+
+/* sidebar start */
+
+.sidebar {
+  @apply flex flex-col justify-between fixed space-y-3 h-screen w-80 -mx-8 py-4;
+}
+
+.profile{
+  @apply flex flex-col items-center;
+}
+
+.avatar-profile {
+  @apply flex items-center justify-center w-36 h-36 shadow-inner-light rounded-full;
+  @apply hover:shadow-drop-light;
+  @apply dark:shadow-inner-dark;
+  @apply dark:hover:shadow-drop-dark;
+}
+
+.avatar-profile-image {
+  @apply flex items-center justify-center w-24 h-24 shadow-drop-light rounded-full;
+  @apply dark:shadow-drop-dark;
+}
+
+.name-profile {
+  @apply font-semibold text-2xl mt-4;
+  @apply hover:text-primary;
+}
+
+.social-media-profile-button {
+  @apply flex items-center justify-center shadow-drop-light w-9 h-9 rounded-full text-sm;
+  @apply hover:text-primary hover:shadow-inner-light hover:text-xl;
+  @apply dark:shadow-drop-dark;
+  @apply dark:hover:shadow-inner-dark;
+}
+
+.navigation-button {
+  @apply shadow-inner-light rounded-3xl px-4 py-2.5 my-6;
+  @apply hover:shadow-drop-light hover:text-primary;
+  @apply dark:shadow-inner-dark;
+  @apply dark:hover:shadow-drop-dark;
+}
+
+.download-button {
+  @apply mb-10 shadow-drop-light rounded-3xl py-3;
+  @apply hover:shadow-inner-light hover:text-primary;
+  @apply dark:shadow-drop-dark;
+  @apply dark:hover:shadow-inner-dark;
+}
+
+/* sidebar end */
