@@ -10,7 +10,7 @@ export default function Home() {
       <Sidebar />
 
       <div className='ml-80'>
-        
+        <p>Lorem Ipsum</p>
       </div>
     </div>
   )
