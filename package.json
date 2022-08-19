@@ -6,45 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-gitignore": "^1.0.12",
-    "react-type-animation": "^2.0.9"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@tailwindcss/line-clamp": "^0.4.0",
     "autoprefixer": "^10.4.8",
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
   },
-  "description": "Portfolio website by Manuel Setyo",
-  "main": "next.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/msetyo15/msetyo15.github.io.git"
-  },
-  "keywords": [
-    "Website",
-    "Portfolio",
-    "Tailwind",
-    "CSS",
-    "Next",
-    "JS",
-    "React",
-    "JS",
-    "Neumorphism"
-  ],
-  "author": "Manuel Setyo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/msetyo15/msetyo15.github.io/issues"
-  },
-  "homepage": "https://github.com/msetyo15/msetyo15.github.io#readme"
+  "description": "Website Portfolio by Manuel Setyo",
+  "main": "index.js",
+  "repository": "https://github.com/msetyo15/msetyo15.github.io",
+  "author": "Manuel Setyo Saputro Sriwibowo <106644233+msetyo15@users.noreply.github.com>",
+  "license": "MIT"
 }
