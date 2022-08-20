@@ -4,10 +4,10 @@ const nextConfig = {
   swcMinify: true,
 
   // enabled during build, turn off during develop
-  images: {
-    loader: "akamai",
-    path: "",
-  },
+  // images: {
+  //   loader: "akamai",
+  //   path: "",
+  // },
 }
 
 module.exports = nextConfig
