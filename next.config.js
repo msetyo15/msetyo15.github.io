@@ -9,7 +9,7 @@ const nextConfig = {
     path: "",
   },
   basePath: "/nextjs-pages", // enabled during build, turn off during develop
-  assetPrefix: "/nextja-pages", //enabled during build, turn off during develop
+  assetPrefix: "/nextjs-pages", //enabled during build, turn off during develop
 }
 
 module.exports = nextConfig
