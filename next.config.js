@@ -8,8 +8,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/nextjs-pages", // enabled during build, turn off during develop
-  assetPrefix: "/nextjs-pages", //enabled during build, turn off during develop
+  // basePath: "/nextjs-pages", // enabled during build, turn off during develop
+  // assetPrefix: "/nextjs-pages", //enabled during build, turn off during develop
 }
 
 module.exports = nextConfig
